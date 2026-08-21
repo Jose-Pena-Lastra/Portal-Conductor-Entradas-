@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {
-  User, IdCard, Phone, Building, MapPin,
+  User,
   UploadCloud, Truck, Caravan, ShieldAlert, Check, CheckCircle2,
-  XCircle, Info, CheckCircle, AlertTriangle
+  XCircle, CheckCircle, AlertTriangle
 } from 'lucide-react';
 import Toast from '../components/Toast';
 
