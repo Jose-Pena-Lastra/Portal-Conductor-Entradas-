@@ -12,7 +12,7 @@ const getApiBaseUrl = () => {
       return '/api';
     }
   }
-  return 'http://localhost:5001/api';
+  return 'http://172.22.200.17:8013/api';
 };
 
 const API_BASE_URL = getApiBaseUrl();
